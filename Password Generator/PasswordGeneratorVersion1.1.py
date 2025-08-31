@@ -70,7 +70,7 @@ def password_gen():
 
 # part of my training, but since it's more predictable that the digits, letters and special characters are always equal in number
 # it's easier to crack, so use at your own caution.
-# password_gen() is more secure but it still needs updated code
+# password_gen() is more secure but it still needs updated codes
 
 def passworddivider():
     banner()
