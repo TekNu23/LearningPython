@@ -219,35 +219,9 @@ def hour_calculator(): #converts hours into seconds/minutes/hours/days/weeks/mon
                 time.sleep(1)
                 banner()
                 print("Uploading virus to computer")
-                time.sleep(0.5)
-                print('(ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print(' (ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('  ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('   ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('    ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('     ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('      ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('       ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('        ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('         ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('          ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('           ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('            ( ノಠ 益 ಠ)ノ')
-                time.sleep(0.1)
-                print('             ( ノಠ 益 ಠ)ノ')
-                time.sleep(3)
+                for ctr in range(14):
+                    print(" " * ctr + "/ಠ 益 ಠ)ノ")
+                    time.sleep(0.1)
                 exit()
 
     except ValueError:
@@ -300,11 +274,6 @@ def real_scam():
         banner()
         print("Please try again in menu")
         uefi()
-
-
-
-
-
 
 if __name__ == "__main__":
     uefi()
