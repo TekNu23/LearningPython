@@ -1,5 +1,4 @@
 import string
-import random
 import secrets
 
 def banner():
