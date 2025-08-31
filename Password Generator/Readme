@@ -1,0 +1,5 @@
+Since I'm still learning to build GUIs, the way to use this currently is only through the terminal/commandline
+
+Navigate to PasswordGeneratorVersion1.2.py file, with commands like cd
+Make sure python3 is installed
+Run command: python3 PasswordGeneratorVersion1.2.py
