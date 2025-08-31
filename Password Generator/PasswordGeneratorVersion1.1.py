@@ -1,5 +1,6 @@
 import string
 import random
+import secrets
 
 def banner():
     print("=" * 60)
